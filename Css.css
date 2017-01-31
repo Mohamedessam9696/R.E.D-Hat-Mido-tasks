@@ -1,0 +1,431 @@
+body{
+	background-color: #fff;
+    height: 4000px;
+}
+.Container{
+	width:1100px;
+	margin:auto;
+	
+	
+}
+.clearfix{clear: both;}
+
+.Header .slider{
+	background-color: #EEE;
+	height: 600px;
+	background-image: url("image/web2.jpg");
+	background-size: cover;
+}
+.Header .slider .intro {
+	margin: 0px;
+	height: 600px;
+	text-align: center;
+	color: #FFF;
+	padding-top: 350px;
+	font-size: 50px; 
+
+}
+.Header .slider .intro h2{
+	margin: 0px auto;
+	border-top: 3px solid #FFF;
+	border-bottom:3px solid #FFF;
+}
+.Header .slider .intro button{
+	background: none;
+	font-size: 20px;
+	color: #FFF;
+	margin-top: 20px; 
+	font-size: 30px;
+
+	border: 2px solid #F2F2F2;
+	font-weight: bold;
+    padding: 10 10px;        }
+.Header .nav{
+	background-color:#1E90FF;
+	color:#fff;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+.Header .nav ul{
+	list-style: none;
+	padding-left: 0;
+     overflow: hidden;
+     float: right;
+
+
+   }
+.Header .nav ul li{
+	float: left;
+	padding: 10px;
+    
+
+}
+
+.Header .nav ul li a{
+	color:#FFF;
+	text-decoration: none;
+}
+
+.Header .nav ul li a:hover,.Header .nav ul li.Active a{
+	color: #FFD700;
+}
+
+.Header .nav h2{
+	float: left;
+
+}
+.Header .nav h2 span{
+	color: #FFD700;}
+.Features{
+   overflow: hidden;
+   padding-top:30px;
+   padding-bottom:30px; 
+}
+.Features .Feat{
+	float: left;
+	width: 33.33333%;
+	height:150px;
+	
+
+}
+.Features .Feat h2{
+	text-transform: uppercase;
+     color: #444;
+}
+.Features .Feat p{
+	line-height: 1.6;
+	color: #888;
+	text-align: justify;
+	padding-right: 20px; 
+}
+.about-me{
+	background-color:#F2F2F2;
+	overflow: hidden;
+}
+.about-me .image{
+	float: left;
+	width: 40%;
+}
+.about-me .image img{
+	width: 100%;
+	 
+	
+}
+.about-me .info{
+	float: left;
+	width: 60%;
+}
+.about-me .info h2{
+	margin: 40px 0 20 40;
+
+}
+.about-me .info p{
+	margin: 40px 0 10 40;
+	color: #666;
+}
+..about-me .info p:last-of-type {
+	margin: 20px 0 10px 40px;
+   }
+.about-me .info .Hobies{
+	overflow: hidden;
+	margin:40px 0 0 40px;
+}
+.about-me .info .Hobies .content {
+	float: left;
+	width: 50%;
+	min-height: 100px;
+	overflow: hidden;
+}
+
+.about-me .info .Hobies .content {color:black;}
+
+.about-me .info .Hobies .content .icon{float: left;
+width: 8%;}
+.about-me .info .Hobies .content .Text{ float: left; 
+width: 92%;
+margin: 4px 0px 8px 0px;
+ 
+ } 
+.about-me .info .Hobies .content .icon img{max-width: 100%;
+margin: 20px 25px 0 0;}
+
+.Myskills {
+	
+	overflow: hidden;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	}
+
+.Myskills .Skills{
+	text-align: left;
+	float: left; 
+}
+.Myskills .Skills h2{
+	margin: 24px 0 20px 40px;
+	color: #555;
+
+}
+.Myskills .Skills p{
+	margin: 0 0 0 40px;
+   color: #666;
+   line-height: 1.6;
+
+}
+.Myskills .progress .Teq{
+	margin-left: 50px;
+}
+.Myskills .progress .Teq h3{
+	color: #555;
+}
+.Myskills .progress .Teq div {
+	background-color:#F2F2F2;
+	height: 25px;
+}
+.Myskills .progress .Teq div span {
+	background-color:#1E90FF;
+	height: 25px;
+	display: block;
+	text-align: right;
+	line-height: 25px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+.Myskills .Skills button{
+	background: none;
+	border: 3px solid #1E90FF;
+	padding: 10px 30px;
+	color: #1E90FF;
+	margin:20px 0 0 40px; 
+}
+
+.Myskills .Skills,.Myskills .Progress{ 
+	float: left;
+	width: 50%;
+
+}
+.Resume{
+	background-color: #F2F2F2;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+overflow: hidden;}
+.Resume p{
+	color:#666;
+	padding: 0 40px;
+	
+}
+.Resume h2{
+	text-transform: uppercase;
+	font-style: bold;
+
+}
+
+.Mybutton {
+	background: none;
+	border: 3px solid #1E90FF;
+	color: #1E90FF;
+	height: 60px;
+	font-size: 20px;
+	
+}
+.Education{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.Education .Main{
+	width: 50%;
+	margin-right:5%;
+    float:left;
+}
+.Education .exp{
+	width: 45%;
+    float:left;
+}
+.Education .exp h3{
+	margin-top:70px;
+	margin-bottom: 8px; 
+}
+.Education .exp span{
+	display: block;
+	margin-bottom: 8px;
+}
+.Education .exp span:first-of-type{
+	color: #999;
+}
+.Education .exp span:last-of-type{
+	
+	color: #FFF;
+   display: inline-block;
+   padding:4px 10px;
+}
+.Education .exp hr{
+	margin:20px 0;
+	background-color: #1E90FF;
+	height: 1px;
+	border: 0;
+}
+.Education .exp p{
+	line-height: 1.7;
+	color: #777;
+}
+/*.Education .Main,.Myskills .Progress{
+	float: left;
+	width: 50%;} */
+
+.Education .main p{
+	margin: 0 0 0 40px;
+   color: #666;
+   line-height: 1.6;
+
+}
+.Education .main h3{
+	color: white;
+}
+.testimon q{
+	line-height: 1.8;
+	color: white;
+	font-size: 18px;
+	font-style: italic;
+}
+.testimon h3{
+	color: white;
+	margin-bottom: 30px;
+
+}
+.testimon ul{
+	list-style: none;padding-left:0; 
+	text-align: center;
+}
+.testimon ul li{
+	width: 10px;
+	height: 10px;
+	border: 2px solid white;
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.testimon ul li.active ,.testimon ul li:hover{
+	background-color:white; 
+}
+
+   
+.testimon{
+	overflow: hidden;
+	text-align: center;
+	background-color:#1E90FF ;
+	padding-bottom: 70px;
+	padding-top: 50px;
+}
+/* Start Portofolio */
+.Portofolio{
+	
+	padding-top:60px;
+	padding-bottom: 70px;
+	text-align: center;
+
+}
+.Portofolio h2{
+	color: black;
+	margin-bottom: 30px;
+}
+.Portofolio p{
+	color: #666;
+}
+.Portofolio .ourwork{
+	overflow: hidden;
+
+}
+.Portofolio .OurWork>div{
+	float: left;
+	width: 33.333333%;
+	margin-bottom: 10px;
+
+}
+.Portofolio .Ourwork > div img{width: 92%;margin: 10px;
+background-color: #FFF;
+border: 1px solid #CCC;
+box-shadow: 10px 10px 12px #CCC}
+.ContactMe{
+	background-color: #1E90FF;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+
+}
+.ContactMe h2{
+	color: #FFF;
+	margin-left: 40px;
+	margin-top:50px; 
+}
+.ContactMe h3{
+	color: white;
+	margin-top: 0px;
+	margin-left: 40px;
+}
+.ContactMe p{
+	color: white;
+	margin-left: 40px;
+	line-height: 1.7;
+}
+.ContactMe strong{
+	color: white;
+}
+.ContactMe .Form{
+	width: 45%;
+	float: left;
+	margin-left:90px; 
+	
+    
+}
+.ContactMe .Form input[type="text"]{
+	 background-color :white;
+	width: 60%;
+	color: black;
+	border: 0;
+	width: 80%;
+	margin-bottom: 10PX;
+}
+.ContactMe .Form textarea{
+	background-color :white;
+	width: 60%;
+	color: black;
+	border: 0;
+  width: 80%;
+	margin-bottom: 10PX;
+   height: 100px;
+}
+.ContactMe .Form input[type="Submit"]{
+	background-color: #1E90FF;
+	color: #fff;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+.ContactMe .info{
+	width: 50%;
+	float: left;
+	margin-left:5%;
+}
+.ContactMe .Form label{
+	display: block;
+	color: white;
+	margin-bottom: 10px;
+}
+.Footer{
+	background-color: white;
+	color: #000000;
+	padding: 20px 0;
+	text-align:center;
+
+
+}
+.Footer ul {
+	list-style: none;
+	padding-left:0;
+	margin: 10px 0 0;
+}
+.Footer ul li{
+	display: inline-block;
+}
